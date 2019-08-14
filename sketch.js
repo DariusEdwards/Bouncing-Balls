@@ -52,16 +52,20 @@ function draw() {
     background(0, 0, 0);
     //fill(255, 50, 255);
     circle(x, y, 50);
-    fill(random(0, 1000), random(0, 400), random(0, 400));
+    fill(255,0,255);
+    //fill(random(0, 1000), random(0, 400), random(0, 400));
 
     circle(a, b, 50)
-    fill(random(0, 1000), random(0, 400), random(0, 400));
+    fill(0,255,0);
+    //fill(random(0, 1000), random(0, 400), random(0, 400));
 
     circle(j, k, 50)
-    fill(random(0, 1000), random(0, 400), random(0, 400));
+    fill(255,0,0);
+    //fill(random(0, 1000), random(0, 400), random(0, 400));
 
     circle(t, s, 50);
-    fill(random(0, 1000), random(0, 400), random(0, 400));
+    fill(0,0,255);
+    //fill(random(0, 1000), random(0, 400), random(0, 400));
 
     //  function mouseClicked() {
     //         circle(x, y, 10);
